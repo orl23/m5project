@@ -1,16 +1,16 @@
 body {
+    font-family: 'DM Serif Display', serif;
     background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/apex-legends-features-section-background-desktop-tablet-01-ps4-en-06feb19?$native$);
     background-color: #910000; 
     background-repeat: no-repeat;
     background-size: cover;
-    
-   }
+}
 
-p {color : #ffaa00 ;
+p {
+    color : #ffaa00 ;
     font-family: 'Playfair Display', serif;
     font-size: 25px;
     font-weight: 100;
-
 }
 
 nav {
@@ -45,30 +45,30 @@ nav a {
 }
 
 .header img {
-  width: 125px;
-  height: 125px;
-  background:none;
+    width: 125px;
+    height: 125px;
+    background:none;
 }
 
 .header h1 {
     position: center;
     top: 18px;
     left: 10px;
-  }
-
- h1 {text-align: center;} 
-
- h1 {
-    font-size: 80px;
-  } 
-
-h2{ font-size: 35px;
-padding: 95px;
-
-
 }
 
-p{ text-indent: 25px; }
+ h1 {
+    text-align: center;
+    font-size: 80px;
+} 
 
-font-family: 'Playfair Display', serif;
-font-family: 'Yeseva One', cursive;
+h2 { 
+    font-size: 35px;
+    padding: 95px;
+}
+
+p { 
+    text-indent: 25px; 
+}
+
+
+
