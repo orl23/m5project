@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     @media screen and (max-width:$desktop) and (min-width:$phone)
     
@@ -68,13 +72,129 @@ nav a {
     font-size: 80px;
 } 
 
+h1.apex { 
+    position:absolute;
+    left: 750px;
+
+}
+
 h2 { 
     font-size: 35px;
     padding: 95px;
+}
+
+h2:hover {
+    color: orange;
+    cursor: pointer;
 }
 
 p { 
     text-indent: 25px; 
 }
 
+section#gibraltar{
+    background-image: url(https://wallpapercave.com/dwp2x/wp5695029.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
+
+
+section#bloodhound{
+    background-image: url(https://wallpapercave.com/wp/wp5694698.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section#lifeline{
+    background-image: url(https://assets2.rockpapershotgun.com/apex-concept-art-wallpaper-lifeline.png/BROK/resize/1760%3E/format/jpg/quality/80/apex-concept-art-wallpaper-lifeline.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section#pathfinder{
+    background-image: url(https://wallpapercave.com/wp/wp5700024.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section#pathfinder p, section#gibraltar p,section#bloodhound p,section#lifeline p,section#bangalore p,section#wraith p {
+    color:black;
+    text-shadow: 0 0 3px white;
+    font-size: 50px;
+    font-weight: 600;
+}
+section#bangalore{
+    background-image: url(https://wallpaperaccess.com/full/6539390.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+section#wraith{
+    background-image: url(https://wallpapercave.com/dwp2x/wp4573144.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+footer.index {
+    position:absolute; 
+    width:100%; 
+    text-align: center;
+    padding: 30px;
+    font-size: 30px; 
+    color:black;
+    background-color: purple;
+}
+
+section#pathfinder p:hover  {
+    color:#B4A33B;
+    text-shadow: 2px 2px 3px white;
+    font-size: 50px;
+}
+
+section#gibraltar p{
+    color:#A9B1BC;
+    text-shadow: 0 0 3px blue;
+    font-size: 50px;
+}
+
+section#gibraltar p:hover{
+    color:blue;
+    text-shadow: 2px 2px 3px #A9B1BC;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+section#bloodhound p:hover {
+    color:black;
+    text-shadow: 2px 2px 3px #8C2E1D;
+    font-size: 50px;
+}
+
+section#lifeline p:hover {
+    color:black;
+    text-shadow: 2px 2px 3px #DA8B8F;
+    font-size: 50px;
+}
+
+section#bangalore p:hover  {
+    color:#584437;
+    text-shadow: 2px 2px 3px black;
+    font-size: 50px;
+    
+}
+
+section#wraith p:hover  {
+    color:#9C656B;
+    text-shadow: 2px 2px 3px white;
+    font-size: 50px;
+    
+}
+
+p {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 50px;
+}
