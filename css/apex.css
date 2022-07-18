@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    @media screen and (max-width:$desktop) and (min-width:$phone)
+    /* @media screen and (max-width:$desktop) and (min-width:$phone) */
     
     font-family: 'DM Serif Display', serif;
     background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/apex-legends-features-section-background-desktop-tablet-01-ps4-en-06feb19?$native$);
@@ -21,25 +21,41 @@ p {
 }
 /* added color to my text and a font */
 
+
 nav {
-    text-align: center; 
-    font-size: 35px;
-} 
-
-
-ul li {
-    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* list-style-type: none; */
 /*     border: 1px solid white; */
-    display: inline;
+    /* display: inline; */
     margin: 0px 30px 0px 30px; /* TOP RIGHT BOTTOM LEFT */
     color: #ffaa00;
-}
-
-ul {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
+    text-align: center; 
+    font-size: 35px;
     border-bottom-right-radius: 35px;
     border-top-left-radius: 35px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+nav.legends li {
+    display: block;
+}
+
+nav.legends {
+    position: fixed;
+    right: 30px;
+    width: 300px;
+}
+
+ nav ul {
+    
+    padding: 10px;
+    /* border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px; */
+    display: inline;
 }
 /*made the nav bar transparent and rounded two corners of the nav bar*/
 
@@ -79,14 +95,14 @@ h1.apex {
 }
 
 h2 { 
-    font-size: 35px;
+    font-size: 85px;
     padding: 95px;
 }
 
-h2:hover {
+/* h2:hover {
     color: orange;
     cursor: pointer;
-}
+} */
 
 p { 
     text-indent: 25px; 
@@ -197,4 +213,81 @@ p {
     margin-left: 100px;
     margin-right: 100px;
     padding-bottom: 50px;
+}
+
+section#r301list {
+    font-size: 35px;
+    list-style-type: none;
+}
+
+section#wraith h2 { 
+font-size: 85px;
+padding: 95px;
+color:white;
+}
+
+section#wraith h2:hover {
+    color: #9C656B;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px white;
+}
+
+section#bangalore h2 { 
+    font-size: 85px;
+    padding: 95px;
+    color:black;
+    }
+    
+section#bangalore h2:hover {
+    color: #584437;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px black;
+}
+
+section#pathfinder h2 { 
+    font-size: 85px;
+    padding: 95px;
+    color:white;
+    }
+    
+section#pathfinder h2:hover {
+    color: #B4A33B;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px black;
+}
+
+section#lifeline h2 { 
+    font-size: 85px;
+    padding: 95px;
+    color: black;
+    }
+    
+section#lifeline h2:hover {
+    color: #DA8B8F;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px black;
+}
+
+section#bloodhound h2 { 
+    font-size: 85px;
+    padding: 95px;
+    color: #8C2E1D;
+    }
+    
+section#bloodhound h2:hover {
+    color: slategray;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px black;
+}
+
+section#gibraltar h2 { 
+    font-size: 85px;
+    padding: 95px;
+    color: gainsboro;
+    }
+    
+section#gibraltar h2:hover {
+    color: blue;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px white;
 }
