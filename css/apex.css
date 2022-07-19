@@ -1,10 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
 }
-body {
-    /* @media screen and (max-width:$desktop) and (min-width:$phone) */
-    
+body {    
     font-family: 'DM Serif Display', serif;
     background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/apex-legends-features-section-background-desktop-tablet-01-ps4-en-06feb19?$native$);
     background-color: #910000; 
@@ -50,8 +49,7 @@ nav.legends {
     width: 300px;
 }
 
- nav ul {
-    
+nav ul {
     padding: 10px;
     /* border-bottom-right-radius: 35px;
     border-top-left-radius: 35px; */
@@ -83,9 +81,12 @@ nav a {
     left: 10px;
 }
 
- h1 {
+
+
+h1 {
     text-align: center;
     font-size: 80px;
+    display: inline;
 } 
 
 h1.apex { 
@@ -236,7 +237,7 @@ section#bangalore h2 {
     font-size: 85px;
     padding: 95px;
     color:black;
-    }
+}
     
 section#bangalore h2:hover {
     color: #584437;
@@ -248,7 +249,7 @@ section#pathfinder h2 {
     font-size: 85px;
     padding: 95px;
     color:white;
-    }
+}
     
 section#pathfinder h2:hover {
     color: #B4A33B;
@@ -260,7 +261,7 @@ section#lifeline h2 {
     font-size: 85px;
     padding: 95px;
     color: black;
-    }
+}
     
 section#lifeline h2:hover {
     color: #DA8B8F;
@@ -272,7 +273,7 @@ section#bloodhound h2 {
     font-size: 85px;
     padding: 95px;
     color: #8C2E1D;
-    }
+}
     
 section#bloodhound h2:hover {
     color: slategray;
@@ -284,10 +285,53 @@ section#gibraltar h2 {
     font-size: 85px;
     padding: 95px;
     color: gainsboro;
-    }
+}
     
 section#gibraltar h2:hover {
     color: blue;
     cursor: pointer;
     text-shadow: 2px 2px 3px white;
+}
+
+
+/*mobile styles*/
+@media only screen and (max-width: 450px){
+    html, body{
+        width: 100%;
+        overflow-x:hidden;
+    }
+   
+    video {
+        /* display: none; */
+       width: 400px;
+       height: 400px;
+       margin-left: 50px;
+    }
+    h1.apex {
+        display: none;
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        display: inline;
+    }
+
+    .header img {
+        width: 45px;
+        height: 45px;
+        background:none;
+    }
+
+    img.imageLeft {
+        padding-left: 31px;
+    }
+
+    nav.legends {
+        /* display: none; */
+    }
+
+    h2 {
+        /* display: none; */
+    }
+   
 }
