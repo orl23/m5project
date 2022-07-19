@@ -296,13 +296,20 @@ section#gibraltar h2:hover {
 
 /*mobile styles*/
 @media only screen and (max-width: 450px){
-    html, body{
-        width: 100%;
-        overflow-x:hidden;
+    *{
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -msbox-sizing: border-box;
+    }
+    body{
+       overflow-x: hidden;
+    }
+    img{
+       max-width:100%;
     }
    
     video {
-        /* display: none; */
+        display: none;
        width: 400px;
        height: 400px;
        margin-left: 50px;
@@ -323,15 +330,15 @@ section#gibraltar h2:hover {
     }
 
     img.imageLeft {
-        padding-left: 31px;
+        margin-left: 32px;
     }
 
-    nav.legends {
-        /* display: none; */
-    }
+    /* nav.legends {
+        display: none;
+    } */
 
     h2 {
-        /* display: none; */
+        display: none;
     }
    
 }
