@@ -100,10 +100,10 @@ h2 {
     padding: 95px;
 }
 
-/* h2:hover {
+ h2:hover {
     color: orange;
     cursor: pointer;
-} */
+} 
 
 p { 
     text-indent: 25px; 
@@ -309,10 +309,10 @@ section#gibraltar h2:hover {
     }
    
     video {
-        display: none;
-       width: 400px;
-       height: 400px;
-       margin-left: 50px;
+        display:center;
+       width: 450px;
+       height: 450px;
+       ;
     }
     h1.apex {
         display: none;
@@ -331,14 +331,62 @@ section#gibraltar h2:hover {
 
     img.imageLeft {
         margin-left: 32px;
-    }
+    }   
 
-    /* nav.legends {
-        display: none;
-    } */
 
-    h2 {
-        display: none;
+    section#pathfinder img, section#gibraltar img,section#bloodhound img,section#lifeline img , section#bangalore img,section#wraith img 
+    { 
+        width: 185px ;
+        height: 185px ;
+
+        
     }
    
+    section#pathfinder h2, section#gibraltar h2,section#bloodhound h2,section#lifeline h2 , section#bangalore h2,section#wraith h2 
+    {
+        font-size: 30px;
+        padding-left: 15px;
+        padding-top: 15px;
+        
+    }
+    
+    section#pathfinder h2:hover, section#gibraltar h2:hover,section#bloodhound h2:hover,section#lifeline h2:hover , section#bangalore h2:hover,section#wraith h2:hover
+     {
+        color: orange;
+        cursor: pointer;
+    } 
+    section#pathfinder p, section#gibraltar p,section#bloodhound p,section#lifeline p,section#bangalore p,section#wraith p{
+        font-size: 25px;
+    }
+
+    nav {
+        background-color: rgba(0, 0, 0, 0.2);
+        /* list-style-type: none; */
+    /*     border: 1px solid white; */
+        /* display: inline; */
+        margin: 0px 30px 0px 30px; /* TOP RIGHT BOTTOM LEFT */
+        color: #ffaa00;
+        text-align: center; 
+        font-size: 22px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 35px;
+    }
+
+    li a:hover { 
+        background-color: rgb(255, 191, 0);
+        padding: 10px;
+    }
+
+    section#allguns img { 
+        width: 450px;
+        height: 285px;
+        font-size: 22px;
+
+
+
+    
+    }
+    h2 {
+        font-size: 35px;
+    }
 }
